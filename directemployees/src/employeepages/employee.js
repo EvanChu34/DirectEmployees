@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import EmployeeData from "./EmployeeData";
+import employeeData from "./employeeData";
 
 class Employee extends React.Component{
     state = {
@@ -26,6 +26,14 @@ class Employee extends React.Component{
             this.setState({employeeRecords: employeeRecordstemp})
         })
     }
+    render(){
+        return(
+            <div>
+                <h2>Employee Details</h2>
+                <employeeData employees = {this.state.employeeRecords} />
+            </div>
+        )
+    }
+};
 
-
-}
+export default Employee;
