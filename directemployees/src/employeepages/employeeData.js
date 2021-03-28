@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
 
-const employeeData = () => {
+const employeeData = (props) => {
     const data = {
         columns:[
             {
@@ -35,10 +35,11 @@ const employeeData = () => {
                 width:"300"
             },
         ],
-        rows:
+        rows:props.employees
 
     };
-    
+    console.log("Props", props);
+    return <MDBDataTable sorting={true} striped bordered data={data} />
 
 }
 
