@@ -8,9 +8,7 @@ function App() {
       <header className="jumbotron">
           DirectEmployees
       </header>
-
       <Employee />
-
     </div>
   );
 }
