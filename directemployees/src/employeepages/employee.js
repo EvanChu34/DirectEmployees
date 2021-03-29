@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import employeeData from "./employeeData";
+import employeeData from "../employeepages/employeeData";
 
 class Employee extends React.Component{
     state = {
@@ -12,7 +12,6 @@ class Employee extends React.Component{
         .then((records) => {
             let employdata = records.data.results;
             let employeeRecordstemp = [];
-
             for (let i = 0; i < employdata.length; i++){
                 let record = {
                     name: employdata[i].name,

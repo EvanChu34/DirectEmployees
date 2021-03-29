@@ -43,4 +43,4 @@ const employeeData = (props) => {
 
 }
 
-module.export = employeeData;
+export default employeeData;
