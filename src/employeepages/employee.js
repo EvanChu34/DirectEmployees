@@ -14,7 +14,7 @@ class Employee extends React.Component{
             let employeeRecordstemp = [];
             for (let i = 0; i < employdata.length; i++){
                 let record = {
-                    name: employdata[i].name,
+                    name: employdata[i].name.first + " " + employdata[i].name.last,
                     email: employdata[i].email,
                     image: employdata[i].picture.medium,
                     phone: employdata[i].phone,
