@@ -29,11 +29,15 @@ https://evanchu34.github.io/DirectEmployees/
 
 ## Pictures/Gif of Application
 
+![](assets/img/DirectEmployeeExample.png)
 
 ---------------------------	
 
 ## Getting Started 
 Before you start, you need a few things:
-* 
+* Setup a React App 
+* mdbreact
+* Axios
+
 
 ---------------------------	
