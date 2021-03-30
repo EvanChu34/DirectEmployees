@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import employeeData from "../employeepages/employeeData";
+import EmployeeData from "./employeeData";
 
 class Employee extends React.Component{
     state = {
@@ -16,7 +16,7 @@ class Employee extends React.Component{
                 let record = {
                     name: employdata[i].name,
                     email: employdata[i].email,
-                    image: employdata[i].picture,
+                    image: employdata[i].picture.medium,
                     phone: employdata[i].phone,
                     dob: employdata[i].dob.date,
                 }
@@ -29,7 +29,7 @@ class Employee extends React.Component{
         return(
             <div>
                 <h2>Employee Details</h2>
-                <employeeData employees = {this.state.employeeRecords} />
+                <EmployeeData employees = {this.state.employeeRecords} />
             </div>
         )
     }

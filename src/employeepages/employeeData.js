@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
 
-const employeeData = (props) => {
+const EmployeeData = (props) => {
     const data = {
         columns:[
             {
@@ -18,7 +18,7 @@ const employeeData = (props) => {
             },
             {
                 label: "Image",
-                field: "Image",
+                field: "image",
                 sort: "asc",
                 width:"500"
             },
@@ -43,4 +43,4 @@ const employeeData = (props) => {
 
 }
 
-export default employeeData;
+export default EmployeeData;
