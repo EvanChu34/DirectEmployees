@@ -29,7 +29,7 @@ https://evanchu34.github.io/DirectEmployees/
 
 ## Pictures/Gif of Application
 
-![](assets/img/DirectEmployeeExample.png)
+![](assets/DirectEmployeeExample.png)
 
 ---------------------------	
 
